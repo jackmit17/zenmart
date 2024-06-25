@@ -4,6 +4,40 @@
   flex-direction: column;
 }
 
+.container .category_top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .category_top span {
+  font-family: "Jost";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: capitalize;
+
+  color: rgb(4, 30, 66);
+}
+
+.container .category_top a {
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: capitalize;
+
+  color: rgb(4, 30, 66);
+}
+
+.container .category_top a:hover {
+  border-bottom: 2px solid rgb(4, 30, 66);
+}
+
 .header_frame {
   position: relative;
   margin-top: 47px;
@@ -243,40 +277,6 @@
   flex-direction: column;
 }
 
-.category_frame .container .cat_top {
-  width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.category_frame .cat_top span {
-  color: rgb(4, 30, 66);
-  font-family: Jost;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 40px;
-
-  color: rgb(4, 30, 66);
-}
-
-.category_frame .cat_top a {
-  font-family: Jost;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 22px;
-
-  color: rgb(4, 30, 66);
-  border-bottom: 1 px solid rgb(4, 30, 66);
-}
-
-.category_frame .cat_top a:hover {
-  border-bottom: 2px solid rgb(4, 30, 66);
-}
-
 .category_frame .container .cat_bott {
   margin-top: 30px;
   width: 100%;
@@ -319,4 +319,175 @@
   text-align: center;
 
   color: rgb(4, 30, 66);
+}
+
+/* SELLING PRODUCT */
+.selling_product_frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.selling_product_frame .container {
+  flex-direction: column;
+}
+
+.container .product_wrapper {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product_wrapper .next_prev_box {
+  width: 25px;
+}
+
+.next_prev_box img {
+  position: absolute;
+  top: 50%;
+}
+
+.product_wrapper .product_boxes {
+  position: relative;
+  width: 1224px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.product_boxes .product_box {
+  width: 306px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* cursor: pointer; */
+}
+
+.product_box .product_img_box {
+  width: 100%;
+  height: 280px;
+}
+
+.product_img_box .hover_box {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hover_box button {
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+  background: rgb(0, 83, 246);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: rgb(255, 255, 255);
+}
+
+.product_img_box:hover .hover_box {
+  display: flex;
+}
+
+.product_box .product_content_box {
+  padding: 5px 22px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.product_content_box .product_title {
+  font-family: Jost;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  color: rgb(98, 105, 116);
+}
+
+.product_content_box .product_desc {
+  margin-top: 7px;
+  height: 56px;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  overflow: hidden;
+
+  color: rgb(4, 30, 66);
+}
+
+.product_content_box .review_box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.review_box img {
+  margin-right: 5px;
+}
+
+.review_box span {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: rgb(98, 105, 116);
+}
+
+.product_content_box .price_box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price_box strong {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+
+  color: rgb(4, 30, 66);
+}
+
+.price_box span {
+  margin-left: 10px;
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: line-through;
+
+  color: rgb(98, 105, 116);
 }
