@@ -18,7 +18,7 @@
 }
 
 .container .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 500;
   line-height: 40px;
@@ -28,7 +28,7 @@
 }
 
 .container .category_top a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -152,7 +152,7 @@
   box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
   background: rgb(0, 83, 246);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -172,7 +172,7 @@
 }
 
 .container .product_content_box .product_title {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -183,7 +183,7 @@
 .container .product_content_box .product_desc {
   margin-top: 7px;
   height: 56px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -204,7 +204,7 @@
 }
 
 .container .review_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -220,7 +220,7 @@
 }
 
 .container .price_box strong {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -230,7 +230,7 @@
 
 .container .price_box span {
   margin-left: 10px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -282,7 +282,7 @@
   background: rgb(245, 195, 75);
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -293,7 +293,7 @@
   margin-top: 10px;
   width: 428px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -304,7 +304,7 @@
 
 .header_frame .header_content p {
   margin-top: 10px;
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -326,7 +326,7 @@
   background: rgb(255, 255, 255);
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -367,7 +367,7 @@
 
 .header_frame .box_left span {
   color: rgb(0, 83, 246);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -375,7 +375,7 @@
 
 .header_frame .box_left p {
   margin: 10px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 400;
   line-height: 38px;
@@ -384,7 +384,7 @@
 }
 
 .header_frame .box_left a {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -438,7 +438,7 @@
 }
 
 .service_frame .service_content span {
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -448,7 +448,7 @@
 }
 
 .service_frame .service_content p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -505,7 +505,7 @@
 
 .category_frame .bott_box a {
   margin-top: 15px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -571,7 +571,7 @@
   align-items: center;
 
   background-color: #e1edff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -627,7 +627,7 @@
 }
 
 .spec_product_frame .headphone_content_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -637,7 +637,7 @@
 
 .spec_product_frame .headphone_content_box p {
   margin-top: 7px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-weight: 400;
   line-height: 38px;
@@ -647,7 +647,7 @@
 
 .spec_product_frame .headphone_content_box a {
   margin-top: 7px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -698,7 +698,7 @@
 }
 
 .spec_product_frame .headphone_box_content p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -707,7 +707,7 @@
 }
 
 .spec_product_frame .headphone_box_content span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -857,7 +857,7 @@
 .event_frame .timer_box strong {
   color: rgb(255, 255, 255);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -867,7 +867,7 @@
 .event_frame .timer_box span {
   color: rgb(255, 255, 255);
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -875,7 +875,7 @@
 }
 
 .event_frame .event_content_box .event_title {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -897,7 +897,7 @@
   background: rgb(255, 255, 255);
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
