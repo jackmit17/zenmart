@@ -1,5 +1,4 @@
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -824,6 +823,7 @@
   justify-content: center;
   background-color: rgb(0, 83, 246);
   background-image: url(../images/icons/header_bg.svg);
+  background-size: cover;
 }
 
 .event_frame .container {
@@ -913,7 +913,7 @@
 }
 .event_frame .event_product_wrapper .event_product_boxes {
   position: relative;
-  width: auto;
+  width: 850px;
   height: auto;
 
   display: flex;
